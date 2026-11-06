@@ -1,0 +1,43 @@
+[0.630s] Invoking command in '/home/kamlesh/rover_final/mars_rover_ws/build/mars_rover': PYTHONPATH=/home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/build --no-deps symlink_data
+[0.826s] running develop
+[0.940s] running egg_info
+[0.940s] creating mars_rover.egg-info
+[0.940s] writing mars_rover.egg-info/PKG-INFO
+[0.940s] writing dependency_links to mars_rover.egg-info/dependency_links.txt
+[0.940s] writing entry points to mars_rover.egg-info/entry_points.txt
+[0.940s] writing requirements to mars_rover.egg-info/requires.txt
+[0.941s] writing top-level names to mars_rover.egg-info/top_level.txt
+[0.941s] writing manifest file 'mars_rover.egg-info/SOURCES.txt'
+[0.942s] reading manifest file 'mars_rover.egg-info/SOURCES.txt'
+[0.942s] writing manifest file 'mars_rover.egg-info/SOURCES.txt'
+[0.943s] running build_ext
+[0.943s] Creating /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/python3.10/site-packages/mars-rover.egg-link (link to .)
+[0.944s] Installing cmd_vel_mux script to /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/mars_rover
+[0.944s] Installing data_server script to /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/mars_rover
+[0.944s] Installing generate_world script to /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/mars_rover
+[0.944s] Installing obstacle_avoider script to /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/mars_rover
+[0.944s] Installing set_mode script to /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/mars_rover
+[0.944s] 
+[0.944s] Installed /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover
+[0.944s] running symlink_data
+[0.944s] creating /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/ament_index
+[0.945s] creating /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/ament_index/resource_index
+[0.945s] creating /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/ament_index/resource_index/packages
+[0.945s] symbolically linking /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/resource/mars_rover -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/ament_index/resource_index/packages
+[0.945s] symbolically linking /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/package.xml -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover
+[0.945s] creating /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover/urdf
+[0.945s] symbolically linking /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/urdf/mars_rover.urdf -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover/urdf
+[0.945s] creating /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover/worlds
+[0.945s] symbolically linking /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/worlds/mars_world.sdf -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover/worlds
+[0.945s] creating /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover/launch
+[0.945s] symbolically linking /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/launch/rviz.launch.py -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover/launch
+[0.945s] symbolically linking /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/launch/fusion_slam.launch.py -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover/launch
+[0.945s] symbolically linking /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/launch/sim.launch.py -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover/launch
+[0.945s] symbolically linking /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/launch/mars_rover.launch.py -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover/launch
+[0.945s] symbolically linking /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/launch/control.launch.py -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover/launch
+[0.945s] creating /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover/config
+[0.945s] symbolically linking /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/config/ekf.yaml -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover/config
+[0.945s] symbolically linking /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/config/slam_toolbox.yaml -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover/config
+[0.945s] creating /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover/rviz
+[0.945s] symbolically linking /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/rviz/mars_rover.rviz -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover/rviz
+[0.963s] Invoked command in '/home/kamlesh/rover_final/mars_rover_ws/build/mars_rover' returned '0': PYTHONPATH=/home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/build --no-deps symlink_data

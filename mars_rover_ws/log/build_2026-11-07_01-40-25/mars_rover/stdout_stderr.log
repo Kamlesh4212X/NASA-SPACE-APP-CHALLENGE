@@ -1,0 +1,58 @@
+running develop
+Removing /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/python3.10/site-packages/mars-rover.egg-link (link to .)
+running egg_info
+writing ../../build/mars_rover/mars_rover.egg-info/PKG-INFO
+writing dependency_links to ../../build/mars_rover/mars_rover.egg-info/dependency_links.txt
+writing entry points to ../../build/mars_rover/mars_rover.egg-info/entry_points.txt
+writing requirements to ../../build/mars_rover/mars_rover.egg-info/requires.txt
+writing top-level names to ../../build/mars_rover/mars_rover.egg-info/top_level.txt
+reading manifest file '../../build/mars_rover/mars_rover.egg-info/SOURCES.txt'
+writing manifest file '../../build/mars_rover/mars_rover.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/build
+creating /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/build/lib
+creating /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/build/lib/mars_rover
+copying mars_rover/__init__.py -> /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/build/lib/mars_rover
+copying mars_rover/obstacle_avoider.py -> /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/build/lib/mars_rover
+copying mars_rover/set_mode.py -> /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/build/lib/mars_rover
+copying mars_rover/generate_world.py -> /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/build/lib/mars_rover
+copying mars_rover/cmd_vel_mux.py -> /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/build/lib/mars_rover
+copying mars_rover/data_server.py -> /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/build/lib/mars_rover
+running install
+running install_lib
+creating /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/python3.10/site-packages/mars_rover
+copying /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/build/lib/mars_rover/__init__.py -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/python3.10/site-packages/mars_rover
+copying /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/build/lib/mars_rover/obstacle_avoider.py -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/python3.10/site-packages/mars_rover
+copying /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/build/lib/mars_rover/set_mode.py -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/python3.10/site-packages/mars_rover
+copying /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/build/lib/mars_rover/generate_world.py -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/python3.10/site-packages/mars_rover
+copying /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/build/lib/mars_rover/cmd_vel_mux.py -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/python3.10/site-packages/mars_rover
+copying /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/build/lib/mars_rover/data_server.py -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/python3.10/site-packages/mars_rover
+byte-compiling /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/python3.10/site-packages/mars_rover/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/python3.10/site-packages/mars_rover/obstacle_avoider.py to obstacle_avoider.cpython-310.pyc
+byte-compiling /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/python3.10/site-packages/mars_rover/set_mode.py to set_mode.cpython-310.pyc
+byte-compiling /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/python3.10/site-packages/mars_rover/generate_world.py to generate_world.cpython-310.pyc
+byte-compiling /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/python3.10/site-packages/mars_rover/cmd_vel_mux.py to cmd_vel_mux.cpython-310.pyc
+byte-compiling /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/python3.10/site-packages/mars_rover/data_server.py to data_server.cpython-310.pyc
+running install_data
+copying resource/mars_rover -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/ament_index/resource_index/packages
+copying package.xml -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover
+copying urdf/mars_rover.urdf -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover/urdf
+copying worlds/mars_world.sdf -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover/worlds
+copying launch/rviz.launch.py -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover/launch
+copying launch/fusion_slam.launch.py -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover/launch
+copying launch/sim.launch.py -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover/launch
+copying launch/mars_rover.launch.py -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover/launch
+copying launch/control.launch.py -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover/launch
+copying config/ekf.yaml -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover/config
+copying config/slam_toolbox.yaml -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover/config
+copying rviz/mars_rover.rviz -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover/rviz
+running install_egg_info
+Copying ../../build/mars_rover/mars_rover.egg-info to /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/python3.10/site-packages/mars_rover-0.1.0-py3.10.egg-info
+running install_scripts
+Installing cmd_vel_mux script to /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/mars_rover
+Installing data_server script to /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/mars_rover
+Installing generate_world script to /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/mars_rover
+Installing obstacle_avoider script to /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/mars_rover
+Installing set_mode script to /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/mars_rover
+writing list of installed files to '/home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/install.log'

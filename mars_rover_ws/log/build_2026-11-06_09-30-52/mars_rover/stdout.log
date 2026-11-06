@@ -1,0 +1,41 @@
+running develop
+running egg_info
+creating mars_rover.egg-info
+writing mars_rover.egg-info/PKG-INFO
+writing dependency_links to mars_rover.egg-info/dependency_links.txt
+writing entry points to mars_rover.egg-info/entry_points.txt
+writing requirements to mars_rover.egg-info/requires.txt
+writing top-level names to mars_rover.egg-info/top_level.txt
+writing manifest file 'mars_rover.egg-info/SOURCES.txt'
+reading manifest file 'mars_rover.egg-info/SOURCES.txt'
+writing manifest file 'mars_rover.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/python3.10/site-packages/mars-rover.egg-link (link to .)
+Installing cmd_vel_mux script to /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/mars_rover
+Installing data_server script to /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/mars_rover
+Installing generate_world script to /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/mars_rover
+Installing obstacle_avoider script to /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/mars_rover
+Installing set_mode script to /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/mars_rover
+
+Installed /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover
+running symlink_data
+creating /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/ament_index
+creating /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/ament_index/resource_index
+creating /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/ament_index/resource_index/packages
+symbolically linking /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/resource/mars_rover -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/ament_index/resource_index/packages
+symbolically linking /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/package.xml -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover
+creating /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover/urdf
+symbolically linking /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/urdf/mars_rover.urdf -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover/urdf
+creating /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover/worlds
+symbolically linking /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/worlds/mars_world.sdf -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover/worlds
+creating /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover/launch
+symbolically linking /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/launch/rviz.launch.py -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover/launch
+symbolically linking /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/launch/fusion_slam.launch.py -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover/launch
+symbolically linking /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/launch/sim.launch.py -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover/launch
+symbolically linking /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/launch/mars_rover.launch.py -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover/launch
+symbolically linking /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/launch/control.launch.py -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover/launch
+creating /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover/config
+symbolically linking /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/config/ekf.yaml -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover/config
+symbolically linking /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/config/slam_toolbox.yaml -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover/config
+creating /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover/rviz
+symbolically linking /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/rviz/mars_rover.rviz -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover/rviz

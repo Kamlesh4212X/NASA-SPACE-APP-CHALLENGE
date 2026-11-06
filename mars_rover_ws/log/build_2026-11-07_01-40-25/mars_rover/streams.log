@@ -1,0 +1,62 @@
+[0.360s] Invoking command in '/home/kamlesh/rover_final/mars_rover_ws/build/mars_rover': PYTHONPATH=/home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/build
+[0.517s] running develop
+[0.607s] Removing /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/python3.10/site-packages/mars-rover.egg-link (link to .)
+[0.623s] Invoked command in '/home/kamlesh/rover_final/mars_rover_ws/build/mars_rover' returned '0': PYTHONPATH=/home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/build
+[0.625s] Invoking command in '/home/kamlesh/rover_final/mars_rover_ws/src/mars_rover': PYTHONPATH=/home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mars_rover build --build-base /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/build install --record /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/install.log --install-scripts $base/lib/mars_rover --single-version-externally-managed install_data --force
+[0.768s] running egg_info
+[0.769s] writing ../../build/mars_rover/mars_rover.egg-info/PKG-INFO
+[0.769s] writing dependency_links to ../../build/mars_rover/mars_rover.egg-info/dependency_links.txt
+[0.769s] writing entry points to ../../build/mars_rover/mars_rover.egg-info/entry_points.txt
+[0.769s] writing requirements to ../../build/mars_rover/mars_rover.egg-info/requires.txt
+[0.769s] writing top-level names to ../../build/mars_rover/mars_rover.egg-info/top_level.txt
+[0.770s] reading manifest file '../../build/mars_rover/mars_rover.egg-info/SOURCES.txt'
+[0.771s] writing manifest file '../../build/mars_rover/mars_rover.egg-info/SOURCES.txt'
+[0.771s] running build
+[0.771s] running build_py
+[0.771s] creating /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/build
+[0.771s] creating /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/build/lib
+[0.771s] creating /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/build/lib/mars_rover
+[0.771s] copying mars_rover/__init__.py -> /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/build/lib/mars_rover
+[0.771s] copying mars_rover/obstacle_avoider.py -> /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/build/lib/mars_rover
+[0.771s] copying mars_rover/set_mode.py -> /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/build/lib/mars_rover
+[0.771s] copying mars_rover/generate_world.py -> /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/build/lib/mars_rover
+[0.771s] copying mars_rover/cmd_vel_mux.py -> /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/build/lib/mars_rover
+[0.771s] copying mars_rover/data_server.py -> /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/build/lib/mars_rover
+[0.771s] running install
+[0.771s] running install_lib
+[0.771s] creating /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/python3.10/site-packages/mars_rover
+[0.771s] copying /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/build/lib/mars_rover/__init__.py -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/python3.10/site-packages/mars_rover
+[0.771s] copying /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/build/lib/mars_rover/obstacle_avoider.py -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/python3.10/site-packages/mars_rover
+[0.771s] copying /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/build/lib/mars_rover/set_mode.py -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/python3.10/site-packages/mars_rover
+[0.771s] copying /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/build/lib/mars_rover/generate_world.py -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/python3.10/site-packages/mars_rover
+[0.772s] copying /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/build/lib/mars_rover/cmd_vel_mux.py -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/python3.10/site-packages/mars_rover
+[0.772s] copying /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/build/lib/mars_rover/data_server.py -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/python3.10/site-packages/mars_rover
+[0.772s] byte-compiling /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/python3.10/site-packages/mars_rover/__init__.py to __init__.cpython-310.pyc
+[0.772s] byte-compiling /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/python3.10/site-packages/mars_rover/obstacle_avoider.py to obstacle_avoider.cpython-310.pyc
+[0.773s] byte-compiling /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/python3.10/site-packages/mars_rover/set_mode.py to set_mode.cpython-310.pyc
+[0.774s] byte-compiling /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/python3.10/site-packages/mars_rover/generate_world.py to generate_world.cpython-310.pyc
+[0.775s] byte-compiling /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/python3.10/site-packages/mars_rover/cmd_vel_mux.py to cmd_vel_mux.cpython-310.pyc
+[0.776s] byte-compiling /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/python3.10/site-packages/mars_rover/data_server.py to data_server.cpython-310.pyc
+[0.778s] running install_data
+[0.778s] copying resource/mars_rover -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/ament_index/resource_index/packages
+[0.778s] copying package.xml -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover
+[0.778s] copying urdf/mars_rover.urdf -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover/urdf
+[0.778s] copying worlds/mars_world.sdf -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover/worlds
+[0.778s] copying launch/rviz.launch.py -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover/launch
+[0.778s] copying launch/fusion_slam.launch.py -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover/launch
+[0.778s] copying launch/sim.launch.py -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover/launch
+[0.778s] copying launch/mars_rover.launch.py -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover/launch
+[0.779s] copying launch/control.launch.py -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover/launch
+[0.779s] copying config/ekf.yaml -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover/config
+[0.779s] copying config/slam_toolbox.yaml -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover/config
+[0.779s] copying rviz/mars_rover.rviz -> /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/share/mars_rover/rviz
+[0.779s] running install_egg_info
+[0.780s] Copying ../../build/mars_rover/mars_rover.egg-info to /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/python3.10/site-packages/mars_rover-0.1.0-py3.10.egg-info
+[0.780s] running install_scripts
+[0.793s] Installing cmd_vel_mux script to /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/mars_rover
+[0.793s] Installing data_server script to /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/mars_rover
+[0.793s] Installing generate_world script to /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/mars_rover
+[0.793s] Installing obstacle_avoider script to /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/mars_rover
+[0.793s] Installing set_mode script to /home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/mars_rover
+[0.793s] writing list of installed files to '/home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/install.log'
+[0.806s] Invoked command in '/home/kamlesh/rover_final/mars_rover_ws/src/mars_rover' returned '0': PYTHONPATH=/home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kamlesh/rover_final/mars_rover_ws/install/mars_rover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mars_rover build --build-base /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/build install --record /home/kamlesh/rover_final/mars_rover_ws/build/mars_rover/install.log --install-scripts $base/lib/mars_rover --single-version-externally-managed install_data --force
